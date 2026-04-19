@@ -4,11 +4,11 @@
  * @param {number} numFrames - Number of memory frames
  * @returns {object} - Simulation results with steps, faults, and hits
  */
-export function simulateFIFO(referenceString, numFrames) {
-  const frames = [];
-  const steps = [];
-  let faults = 0;
-  let hits = 0;
+// export function simulateFIFO(referenceString, numFrames) {
+//   const frames = [];
+//   const steps = [];
+//   let faults = 0;
+//   let hits = 0;
 
   for (let i = 0; i < referenceString.length; i++) {
     const page = referenceString[i];
