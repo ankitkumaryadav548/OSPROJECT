@@ -75,10 +75,10 @@ export function simulateOptimal(referenceString, numFrames) {
     }
   }
 
-  // return {
-  //   algorithm: 'Optimal',
-  //   steps,
-  //   totalFaults: faults,
-  //   totalHits: hits,
+  return {
+    algorithm: 'Optimal',
+    steps,
+    totalFaults: faults,
+    totalHits: hits,
   };
-// }
+}
